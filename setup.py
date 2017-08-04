@@ -12,7 +12,7 @@ with open('HISTORY.rst') as history_file:
     history = history_file.read()
 
 requirements = [
-    # TODO: put package requirements here
+    'pandas', 'numpy', 'numexpr'  # TODO: put package requirements here
 ]
 
 setup_requirements = [
@@ -34,6 +34,7 @@ setup(
     author_email='tunnell@uchicago.edu',
     url='https://github.com/tunnell/fastsax',
     packages=find_packages(include=['fastsax']),
+    package_data={'fastsax': ['config/*.json']},
     include_package_data=True,
     install_requires=requirements,
     license="GNU General Public License v3",

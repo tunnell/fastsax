@@ -1,0 +1,418 @@
+{
+    "py3": {
+        "range": [
+            0,
+            10000000000.0
+        ],
+        "initial": 0.0,
+        "prior": {
+            "type": "free"
+        },
+        "name": "py3",
+        "step": 0.01
+    },
+    "er_rate": {
+        "range": [
+            0,
+            10000000000.0
+        ],
+        "initial": 1000,
+        "prior": {
+            "type": "free"
+        },
+        "name": "er_rate",
+        "step": 20
+    },
+    "field": {
+        "range": [
+            0,
+            1000.0
+        ],
+        "initial": 120,
+        "prior": {
+            "type": "fixed"
+        },
+        "name": "field",
+        "step": 1.0
+    },
+    "W": {
+        "range": [
+            0,
+            1.0
+        ],
+        "initial": 0.0137,
+        "prior": {
+            "type": "norm",
+            "args": {
+                "loc": 0.0137,
+                "scale": 0.002
+            }
+        },
+        "name": "W",
+        "step": 0.002
+    },
+    "s_s2_acc": {
+        "range": [
+            0,
+            1.0
+        ],
+        "initial": 0.5,
+        "prior": {
+            "type": "norm",
+            "args": {
+                "loc": 0.0,
+                "scale": 1.0
+            }
+        },
+        "name": "s_s2_acc",
+        "step": 0.05
+    },
+    "p_dpe": {
+        "range": [
+            0.18,
+            0.24
+        ],
+        "initial": 0.19,
+        "prior": {
+            "type": "uniform",
+            "args": {
+                "loc": 0.18,
+                "scale": 0.06
+            }
+        },
+        "name": "p_dpe",
+        "step": 0.01
+    },
+    "rf1": {
+        "range": [
+            0,
+            10000000000.0
+        ],
+        "initial": 1.0,
+        "prior": {
+            "type": "free"
+        },
+        "name": "rf1",
+        "step": 0.5
+    },
+    "py1": {
+        "range": [
+            0,
+            10000000000.0
+        ],
+        "initial": 0.0,
+        "prior": {
+            "type": "free"
+        },
+        "name": "py1",
+        "step": 1.0
+    },
+    "s_rec_s2bias_mean": {
+        "range": [
+            0,
+            1.0
+        ],
+        "initial": 0.5,
+        "prior": {
+            "type": "uniform",
+            "args": {
+                "loc": 0.0,
+                "scale": 1.0
+            }
+        },
+        "name": "s_rec_s2bias_mean",
+        "step": 0.05
+    },
+    "ac_rate": {
+        "range": [
+            0,
+            10000000000.0
+        ],
+        "initial": 2.78,
+        "prior": {
+            "type": "norm",
+            "args": {
+                "loc": 2.78,
+                "scale": 0.14
+            }
+        },
+        "name": "ac_rate",
+        "step": 0.2
+    },
+    "gas_gain_res": {
+        "range": [
+            0,
+            1.0
+        ],
+        "initial": 0.24,
+        "prior": {
+            "type": "fixed"
+        },
+        "name": "gas_gain_res",
+        "step": 0.002
+    },
+    "py_th": {
+        "range": [
+            0,
+            10000000000.0
+        ],
+        "initial": 0.5,
+        "prior": {
+            "type": "free"
+        },
+        "name": "py_th",
+        "step": 0.1
+    },
+    "area_top_fraction": {
+        "range": [
+            0,
+            1.0
+        ],
+        "initial": 0.62,
+        "prior": {
+            "type": "fixed"
+        },
+        "name": "area_top_fraction",
+        "step": 0.01
+    },
+    "s2_threshold": {
+        "range": [
+            0,
+            1000.0
+        ],
+        "initial": 200.0,
+        "prior": {
+            "type": "fixed"
+        },
+        "name": "s2_threshold",
+        "step": 1.0
+    },
+    "py0": {
+        "range": [
+            0,
+            10000000000.0
+        ],
+        "initial": 0.0,
+        "prior": {
+            "type": "free"
+        },
+        "name": "py0",
+        "step": 1.0
+    },
+    "s_s1_acc": {
+        "range": [
+            0,
+            1.0
+        ],
+        "initial": 0.5,
+        "prior": {
+            "type": "norm",
+            "args": {
+                "loc": 0.0,
+                "scale": 1.0
+            }
+        },
+        "name": "s_s1_acc",
+        "step": 0.05
+    },
+    "s_scut_acc_on_mscatter": {
+        "range": [
+            0,
+            1.0
+        ],
+        "initial": 0.5,
+        "prior": {
+            "type": "uniform",
+            "args": {
+                "loc": 0.0,
+                "scale": 1.0
+            }
+        },
+        "name": "s_scut_acc_on_mscatter",
+        "step": 0.05
+    },
+    "g2": {
+        "range": [
+            0.0,
+            100
+        ],
+        "initial": 11.45,
+        "prior": {
+            "type": "norm",
+            "args": {
+                "loc": 11.45,
+                "scale": 0.2
+            }
+        },
+        "name": "g2",
+        "step": 0.2
+    },
+    "g1": {
+        "range": [
+            0.0,
+            1.0
+        ],
+        "initial": 0.1471,
+        "prior": {
+            "type": "norm",
+            "args": {
+                "loc": 0.1471,
+                "scale": 0.0062
+            }
+        },
+        "name": "g1",
+        "step": 0.002
+    },
+    "s_rec_bias_res": {
+        "range": [
+            0,
+            1.0
+        ],
+        "initial": 0.5,
+        "prior": {
+            "type": "uniform",
+            "args": {
+                "loc": 0.0,
+                "scale": 1.0
+            }
+        },
+        "name": "s_rec_bias_res",
+        "step": 0.05
+    },
+    "drift_velocity": {
+        "range": [
+            0,
+            10.0
+        ],
+        "initial": 0.144,
+        "prior": {
+            "type": "fixed"
+        },
+        "name": "drift_velocity",
+        "step": 0.02
+    },
+    "py2": {
+        "range": [
+            0,
+            10000000000.0
+        ],
+        "initial": 0.0,
+        "prior": {
+            "type": "free"
+        },
+        "name": "py2",
+        "step": 0.1
+    },
+    "epsilon": {
+        "range": [
+            0,
+            1.0
+        ],
+        "initial": 0.936,
+        "prior": {
+            "type": "fixed"
+        },
+        "name": "epsilon",
+        "step": 0.001
+    },
+    "s_rec_bias_mean": {
+        "range": [
+            0,
+            1.0
+        ],
+        "initial": 0.5,
+        "prior": {
+            "type": "uniform",
+            "args": {
+                "loc": 0.0,
+                "scale": 1.0
+            }
+        },
+        "name": "s_rec_bias_mean",
+        "step": 0.05
+    },
+    "s_rec_s2bias_res": {
+        "range": [
+            0,
+            1.0
+        ],
+        "initial": 0.5,
+        "prior": {
+            "type": "uniform",
+            "args": {
+                "loc": 0.0,
+                "scale": 1.0
+            }
+        },
+        "name": "s_rec_s2bias_res",
+        "step": 0.05
+    },
+    "rf0": {
+        "range": [
+            0,
+            10000000000.0
+        ],
+        "initial": 0.06,
+        "prior": {
+            "type": "free"
+        },
+        "name": "rf0",
+        "step": 0.01
+    },
+    "Nex/Ni": {
+        "range": [
+            0.06,
+            0.2
+        ],
+        "initial": 0.13,
+        "prior": {
+            "type": "uniform",
+            "args": {
+                "loc": 0.06,
+                "scale": 0.14
+            }
+        },
+        "name": "Nex/Ni",
+        "step": 0.01
+    },
+    "fano_factor": {
+        "range": [
+            0,
+            1.0
+        ],
+        "initial": 0.059,
+        "prior": {
+            "type": "fixed"
+        },
+        "name": "fano_factor",
+        "step": 0.001
+    },
+    "s_rec_eff": {
+        "range": [
+            0.0,
+            1.0
+        ],
+        "initial": 0.5,
+        "prior": {
+            "type": "norm",
+            "args": {
+                "loc": 0.0,
+                "scale": 1.0
+            }
+        },
+        "name": "s_rec_eff",
+        "step": 0.05
+    },
+    "py4": {
+        "range": [
+            0,
+            10000000000.0
+        ],
+        "initial": 0.0,
+        "prior": {
+            "type": "free"
+        },
+        "name": "py4",
+        "step": 0.001
+    }
+}
